@@ -4,6 +4,7 @@
   "main": "lib/index.js",
   "scripts": {
     "compile": "tsc",
+    "lint": "standard",
     "prepublishOnly": "npm run compile",
     "test": "npm run compile && nyc ava lib/**/*.test.js"
   },
